@@ -1,0 +1,84 @@
+a {
+  color: #4682B4;
+  text-decoration: none;
+  pointer-events: auto;
+}
+body {
+  margin: 50px;
+  background-color: #ffefd5;
+  font-family: "Palatino Linotype";
+  pointer-events: none;
+}
+div.xxsm-left {
+  font-size: xx-small;
+  text-align: left;
+}
+hr.hr1 {
+  width: 72.1%;
+}
+hr.hr2 {
+  width: 61.8%;
+}
+hr.hr3 {
+  width: 51.5%;
+}
+hr.hr4 {
+  width: 41.2%;
+}
+hr.hr5 {
+  width: 30.9%;
+}
+img.px20 {
+  width: 20px;
+}
+img.px32 {
+  width: 32px;
+}
+img.px80 {
+  width: 80px;
+}
+img.px88 {
+  width: 88px;
+}
+img.px120 {
+  width: 120px;
+}
+img.px320 {
+  width: 320px;
+}
+ol.dec {
+  list-style-type: decimal;
+}
+ol.llat {
+  list-style-type: lower-latin;
+}
+ol.lrom {
+  list-style-type: lower-roman;
+}
+ol.lgrk {
+  list-style-type: lower-greek;
+}
+ol.kat {
+  list-style-type: georgian;
+}
+ol.bod {
+  list-style-type: tibetan;
+}
+ol.none {
+  list-style-type: none;
+}
+span.vmid {
+  vertical-align: middle;
+}
+.approxsoftamber {
+  color: #ccbfaa
+}
+.center {
+  text-align: center;
+}
+.justify {
+  text-align: justify;
+}
+.small {
+  font-size: small;
+}
