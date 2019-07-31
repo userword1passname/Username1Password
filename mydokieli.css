@@ -7,11 +7,6 @@ body {
   margin: 50px;
   background-color: #ffefd5;
   font-family: "Palatino Linotype";
-  pointer-events: none;
-}
-div.xxsm-left {
-  font-size: xx-small;
-  text-align: left;
 }
 hr.hr1 {
   width: 72.1%;
@@ -46,6 +41,9 @@ img.px120 {
 img.px320 {
   width: 320px;
 }
+img.px400 {
+  width: 400px;
+}
 ol.dec {
   list-style-type: decimal;
 }
@@ -78,6 +76,22 @@ span.vmid {
 }
 .justify {
   text-align: justify;
+}
+.point-none {
+  pointer-events: none;
+}
+.point-none-ctr {
+  text-align: center;
+  pointer-events: none;
+}
+hr.pn-hr1 {
+  width: 72.1%;
+  pointer-events: none;
+}
+.xxsm-pn-lft {
+  font-size: xx-small;
+  text-align: left;
+  pointer-events: none;
 }
 .small {
   font-size: small;
