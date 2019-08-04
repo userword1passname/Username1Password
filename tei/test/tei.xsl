@@ -8,7 +8,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <body>
   <h2 style="text-align: center">test</h2>
   <table>
-    <tr bgcolor="#9acd32">
+    <tr>
       <th>paragraph</th>
       <th>test</th>
       <th>partest</th>
