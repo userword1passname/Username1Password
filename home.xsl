@@ -20,8 +20,8 @@
         </tr>
         <xsl:for-each select="TEI/text/body">
           <tr>
-            <td><xsl:value-of select="level1"/></td>
-            <td><xsl:value-of select="level2"/></td>
+            <td><xsl:value-of select="div1/p"/></td>
+            <td><xsl:value-of select="div2/p"/></td>
           </tr>
         </xsl:for-each>
       </table>
