@@ -14,7 +14,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       <div>partest</div>
       <div>again</div>
     </div>
-    <xsl:for-each select="test/body">
+    <xsl:for-each select="text/body">
     <div>
       <div><xsl:value-of select="p"/></div>
       <div><xsl:value-of select="test"/></div>
@@ -30,7 +30,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       <th>partest</th>
       <th>again</th>
     </tr>
-    <xsl:for-each select="test/body">
+    <xsl:for-each select="text/body">
     <tr>
       <td><xsl:value-of select="p"/></td>
       <td><xsl:value-of select="test"/></td>
