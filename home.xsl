@@ -4,7 +4,13 @@
 <xsl:template match="/">
   <html>
     <body style="background-color: #ffefd5">
-      <h2>
+     <h1> 
+          <xsl:value-of select="//level1"/> 
+     </h1> 
+     <h2> 
+          <xsl:value-of select="//level2"/> 
+     </h2> 
+     <h2>
         test
       </h2>
       <table border="1">
