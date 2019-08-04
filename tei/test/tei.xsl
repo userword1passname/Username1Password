@@ -8,7 +8,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <body>
   <h2 style="text-align: center">test</h2>
   <div>
-    <div style="text-align: center">
+    <div style="text-align: justify">
       <div>paragraph</div>
       <div>test</div>
       <div>partest</div>
