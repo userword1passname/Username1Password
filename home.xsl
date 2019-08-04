@@ -22,10 +22,37 @@
             <xsl:value-of select="TEI/text/body/div1/div2/head"/>
           </div>
           <div>
-            <xsl:value-of select="TEI/text/body/div1/div2/p-n1"/>
-          </div>
-          <div>
-            <xsl:value-of select="TEI/text/body/div1/div2/p-n2"/>
+            <div>
+              <xsl:value-of select="TEI/text/body/div1/div2/div3/note"/>
+            </div>
+            <div>
+              <xsl:value-of select="TEI/text/body/div1/div2/div3/head"/>
+            </div>
+            <div>
+              <div>
+                <xsl:value-of select="TEI/text/body/div1/div2/div3/div4/note"/>
+              </div>
+              <div>
+                <xsl:value-of select="TEI/text/body/div1/div2/div3/div4/head"/>
+              </div>
+              <div>
+                <div>
+                  <xsl:value-of select="TEI/text/body/div1/div2/div3/div4/div5/note"/>
+                </div>
+                <div>
+                  <xsl:value-of select="TEI/text/body/div1/div2/div3/div4/div5/head"/>
+                </div>
+                <div>
+                  <xsl:value-of select="TEI/text/body/div1/div2/div3/div4/div5/p-n1"/>
+                </div>
+                <div>
+                  <xsl:value-of select="TEI/text/body/div1/div2/div3/div4/div5/p-n2"/>
+                </div>
+                <div>
+                  <xsl:value-of select="TEI/text/body/div1/div2/div3/div4/div5/trailer"/>
+                </div>
+              </div>
+            </div>
           </div>
           <div>
             <xsl:value-of select="TEI/text/body/div1/div2/trailer"/>
