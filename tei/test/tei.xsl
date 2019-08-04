@@ -10,10 +10,12 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <table border="1">
     <tr bgcolor="#9acd32">
       <th>paragraph</th>
+      <th>test</th>
     </tr>
     <xsl:for-each select="test/body">
     <tr>
       <td><xsl:value-of select="p"/></td>
+      <td><xsl:value-of select="test"/></td>
     </tr>
     </xsl:for-each>
   </table>
