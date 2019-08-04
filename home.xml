@@ -23,7 +23,7 @@
   <text>
     <body>
       <head>
-        pre-main bodily header, incl. img, h1 heading, and nav
+        pre-main bodily header, incl. img, h1 heading "Username1Password!", and nav
       </head>
       <div1>
         <note>
@@ -39,16 +39,47 @@
             article
           </note>
           <head>
-            articular h2 heading
+            I’m trying to make a start, best I can
           </head>
-          <p-n1>
-            Here's where I need to be more decisive about sectioning.
-            Essentially, I'm working with the XHTML/HTML5 recommendations for outlining, plus TEI guidelines.
-            I have to see what type of outline works for both.
-          </p-n1>
-          <p-n2>
-            test
-          </p-n2>
+          <div3>
+            <note>
+              sub-article
+            </note>
+            <head>
+              experimental semi-Europeanish Jainism
+            </head>
+            <div4>
+              <note>
+                section
+              </note>
+              <head>
+                some explanation, maybe
+              </head>
+              <div5>
+                <note>
+                  sub-section
+                </note>
+                <head>
+                  working on the format
+                </head>
+                <p-n1>
+                  text
+                </p-n1>
+                <p-n2>
+                  text
+                </p-n2>
+                <trailer>
+                  trailer
+                </trailer>
+              </div5>
+              <trailer>
+                trailer
+              </trailer>
+            </div4>
+            <trailer>
+              trailer
+            </trailer>
+          </div3>
           <trailer>
             trailer
           </trailer>
