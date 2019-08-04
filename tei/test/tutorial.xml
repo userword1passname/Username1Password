@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tutorial.xsl"?>
-
 <source>
-
-<title>XSL</title> 
-<author>John Smith</author> 
-
+  <title>XSL</title> 
+  <author>John Smith</author> 
 </source>
