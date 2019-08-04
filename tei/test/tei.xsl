@@ -12,6 +12,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <p>
       <span><xsl:value-of select="p"/></span>
       <span><xsl:value-of select="test"/></span>
+      <span><xsl:value-of select="ptest"/></span>
     </p>
     </xsl:for-each>
   </div>
@@ -19,11 +20,13 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <tr bgcolor="#9acd32">
       <th>paragraph</th>
       <th>test</th>
+      <th>partest</th>
     </tr>
     <xsl:for-each select="test/body">
     <tr>
       <td><xsl:value-of select="p"/></td>
       <td><xsl:value-of select="test"/></td>
+      <td><xsl:value-of select="ptest"/></td>
     </tr>
     </xsl:for-each>
   </table>
