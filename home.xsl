@@ -5,10 +5,10 @@
   <html>
     <body style="background-color: #ffefd5">
      <h1> 
-          <xsl:value-of select="//div1/p"/> 
+          <xsl:value-of select="TEI/text/body/div1/p"/> 
      </h1> 
      <h2> 
-          <xsl:value-of select="//div2/p"/> 
+          <xsl:value-of select="TEI/text/body/div2/p"/> 
      </h2> 
      <h2>
         test
