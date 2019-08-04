@@ -22,18 +22,18 @@
   </teiHeader>
   <text>
     <body>
+      <note>
+        note
+      </note>
+      <head>
+        head
+      </head>
       <div1>
-        <p>
-          Now I'm going to try this again with a whole paragraph.
-          I hope it works this time.
-          I'll see soon.
-        </p>
+        div1
       </div1>
-      <div2>
-        <p>
-          testing 2
-        </p>
-      </div2>
+      <trailer>
+        trailer
+      </trailer>
     </body>
   </text>
 </TEI>

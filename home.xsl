@@ -4,27 +4,26 @@
 <xsl:template match="/">
   <html>
     <body style="background-color: #ffefd5">
-     <h1> 
-          <xsl:value-of select="TEI/text/body/div1/p"/> 
-     </h1> 
-     <h2> 
-          <xsl:value-of select="TEI/text/body/div2/p"/> 
-     </h2> 
-     <h2>
-        test
-      </h2>
-      <table border="1">
-        <tr bgcolor="#9acd32">
-          <th>test 1</th>
-          <th>test 2</th>
-        </tr>
-        <xsl:for-each select="TEI/text/body">
-          <tr>
-            <td><xsl:value-of select="div1/p"/></td>
-            <td><xsl:value-of select="div2/p"/></td>
-          </tr>
-        </xsl:for-each>
-      </table>
+      <div>
+        <note>
+          <xsl:value-of select="TEI/text/body/note"/>
+        </note>
+      </div>
+      <div>
+        <head>
+          <xsl:value-of select="TEI/text/body/head"/>
+        </head>
+      </div>
+      <div>
+        <div1>
+          <xsl:value-of select="TEI/text/body/div1"/>
+        </div1>
+      </div>
+      <div>
+        <trailer>
+          <xsl:value-of select="TEI/text/body/div1"/>
+        </trailer>
+      </div>
     </body>
   </html>
 </xsl:template>
