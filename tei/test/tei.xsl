@@ -7,15 +7,15 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <html>
   <body>
   <h2 style="text-align: center">test</h2>
-  <div>
+  <table>
     <xsl:for-each select="test/body">
-    <div>
-      <div><xsl:value-of select="p"/></div>
-      <div><xsl:value-of select="test"/></div>
-      <div><xsl:value-of select="ptest"/></div>
-    </div>
+    <tr>
+      <td><xsl:value-of select="p"/></td>
+      <td><xsl:value-of select="test"/></td>
+      <td><xsl:value-of select="ptest"/></td>
+    </tr>
     </xsl:for-each>
-  </div>
+  </table>
   <table border="1">
     <tr bgcolor="#9acd32">
       <th>paragraph</th>
