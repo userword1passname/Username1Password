@@ -7,7 +7,7 @@
   <h2>test</h2>
   <table border="1">
     <tr bgcolor="#9acd32">
-      <th>test 1</th>
+      <th>test 3</th>
       <th>test 2</th>
     </tr>
     <xsl:for-each select="test/level2">
