@@ -10,7 +10,7 @@
       <th>test 3</th>
       <th>test 2</th>
     </tr>
-    <xsl:for-each select="text/body">
+    <xsl:for-each select="TEI/text/body">
     <tr>
       <td><xsl:value-of select="level1"/></td>
       <td><xsl:value-of select="level2"/></td>
