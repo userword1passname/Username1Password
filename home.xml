@@ -22,25 +22,22 @@
   </teiHeader>
   <text>
     <body>
-      <note>
-        body
-      </note>
       <head>
-        pre-div1 bodily head
+        pre-main bodily header, incl. img, h1 heading, and nav
       </head>
       <div1>
         <note>
-          div1 (main?)
+          main
         </note>
         <head>
-          head
+          pre-articular main header text
         </head>
         <div2>
           <note>
-            div2
+            article
           </note>
           <head>
-            head
+            articular h2 heading
           </head>
           <p-n1>
             Here's where I need to be more decisive about sectioning.
