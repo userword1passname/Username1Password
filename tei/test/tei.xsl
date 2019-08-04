@@ -22,7 +22,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       <div><xsl:value-of select="again"/></div>
     </div>
     </xsl:for-each>
-  </table>
+  </div>
   <table border="1">
     <tr bgcolor="#9acd32">
       <th>paragraph</th>
