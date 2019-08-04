@@ -23,16 +23,43 @@
   <text>
     <body>
       <note>
-        note
+        body
       </note>
       <head>
-        head
+        pre-div1 bodily head
       </head>
       <div1>
-        div1
+        <note>
+          div1 (main?)
+        </note>
+        <head>
+          head
+        </head>
+        <div2>
+          <note>
+            div2
+          </note>
+          <head>
+            head
+          </head>
+          <p-n1>
+            Here's where I need to be more decisive about sectioning.
+            Essentially, I'm working with the XHTML/HTML5 recommendations for outlining, plus TEI guidelines.
+            I have to see what type of outline works for both.
+          </p-n1>
+          <p-n2>
+            test
+          </p-n2>
+          <trailer>
+            trailer
+          </trailer>
+        </div2>
+        <trailer>
+          trailer
+        </trailer>
       </div1>
       <trailer>
-        trailer
+        post-div1 bodily trailer
       </trailer>
     </body>
   </text>
