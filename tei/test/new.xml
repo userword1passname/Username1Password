@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="cdcatalog.xsl"?>
 <test>
-  test
+  <level21>
+    test 1
+  </level21>
+  <level22>
+    test 2
+  </level22>
 </test>
