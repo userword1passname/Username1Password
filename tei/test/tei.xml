@@ -16,7 +16,11 @@
   </teiHeader>
   <text>
     <body>
-      <p>simple as can be</p>
+      <p>
+        I'd like to compose an entire paragraph here.
+        I'm hoping it works.
+        I'll see soon.
+      </p>
       <test>another</test>
       <ptest>third column</ptest>
       <again>again</again>
