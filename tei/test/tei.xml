@@ -18,6 +18,7 @@
     <body>
       <p>simple as can be</p>
       <test>another</test>
+      <ptest>third column</ptest>
     </body>
   </text>
 </TEI>
