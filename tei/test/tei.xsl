@@ -9,11 +9,11 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <h2 style="text-align: center">test</h2>
   <div>
     <xsl:for-each select="test/body">
-    <p>
-      <span><xsl:value-of select="p"/></span>
-      <span><xsl:value-of select="test"/></span>
-      <span><xsl:value-of select="ptest"/></span>
-    </p>
+    <div>
+      <div><xsl:value-of select="p"/></div>
+      <div><xsl:value-of select="test"/></div>
+      <div><xsl:value-of select="ptest"/></div>
+    </div>
     </xsl:for-each>
   </div>
   <table border="1">
