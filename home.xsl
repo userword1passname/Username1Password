@@ -3,7 +3,7 @@
 
 <xsl:template match="/">
   <html>
-    <body>
+    <body style="background-color: #ffefd5">
       <h2>
         test
       </h2>
