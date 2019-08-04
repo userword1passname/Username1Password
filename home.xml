@@ -1,12 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="home.xsl"?>
-<test>
-  <level2>
-    <level31>
-      test 1
-    </level31>
-    <level32>
-      test 2
-    </level32>
-  </level2>
-</test>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+          TEI: Text Encoding Initiative
+        </title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          me
+        </authority>
+      </publicationStmt>
+      <sourceDesc>
+        <p>
+          born digital
+        </p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+    </body>
+  </text>
+</TEI>
