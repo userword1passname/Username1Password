@@ -5,9 +5,6 @@
   <html>
     <body style="background-color: #ffefd5">
       <div>
-        <xsl:value-of select="TEI/text/body/note"/>
-      </div>
-      <div>
         <xsl:value-of select="TEI/text/body/head"/>
       </div>
       <div>
@@ -19,19 +16,19 @@
         </div>
         <div>
           <div>
-            <xsl:value-of select="TEI/text/body/div2/note"/>
+            <xsl:value-of select="TEI/text/body/div1/div2/note"/>
           </div>
           <div>
-            <xsl:value-of select="TEI/text/body/div2/head"/>
+            <xsl:value-of select="TEI/text/body/div1/div2/head"/>
           </div>
           <div>
-            <xsl:value-of select="TEI/text/body/div2/p-n1"/>
+            <xsl:value-of select="TEI/text/body/div1/div2/p-n1"/>
           </div>
           <div>
-            <xsl:value-of select="TEI/text/body/div2/p-n2"/>
+            <xsl:value-of select="TEI/text/body/div1/div2/p-n2"/>
           </div>
           <div>
-            <xsl:value-of select="TEI/text/body/div2/trailer"/>
+            <xsl:value-of select="TEI/text/body/div1/div2/trailer"/>
           </div>
         </div>
         <div>
