@@ -7,6 +7,14 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <html>
   <body>
   <h2 style="text-align: center">test</h2>
+  <div>
+    <xsl:for-each select="test/body">
+    <p>
+      <span><xsl:value-of select="p"/></span>
+      <span><xsl:value-of select="test"/></span>
+    </p>
+    </xsl:for-each>
+  </div>
   <table border="1">
     <tr bgcolor="#9acd32">
       <th>paragraph</th>
