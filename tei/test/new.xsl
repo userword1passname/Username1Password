@@ -10,10 +10,10 @@
       <th>test 1</th>
       <th>test 2</th>
     </tr>
-    <xsl:for-each select="test">
+    <xsl:for-each select="test/level2">
     <tr>
-      <td><xsl:value-of select="level21"/></td>
-      <td><xsl:value-of select="level22"/></td>
+      <td><xsl:value-of select="level31"/></td>
+      <td><xsl:value-of select="level32"/></td>
     </tr>
     </xsl:for-each>
   </table>
